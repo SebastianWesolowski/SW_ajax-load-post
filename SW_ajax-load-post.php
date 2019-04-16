@@ -20,8 +20,7 @@ add_action('template_redirect', 'pbd_alp_init');
         // TODO:// Rozszerzyć o query load ajax
 
         // Queue JS and CSS
-        // wp_enqueue_script('pbd-alp-load-posts',plugin_dir_url( __FILE__ ) . 'load-posts-query.js',array('jquery'),'1.0', true);
-        wp_enqueue_script('pbd-alp-load-posts',plugin_dir_url( __FILE__ ) . 'load-posts-api.js',array('jquery'),'1.0', true);
+        wp_enqueue_script('pbd-alp-load-posts',plugin_dir_url( __FILE__ ) . 'assets/js/SW_ajax-load-post.js',array('jquery'),'1.0', true);
 
         // What page are we on? And what is the pages limit?
         $paged = ( get_query_var('paged') > 1 ) ? get_query_var('paged') : 1;
