@@ -1,0 +1,16 @@
+{
+  "name": "SebastianWesolowski/SW_ajax-load-post",
+  "type": "wordpress-muplugin",
+  "description": "Plugin load next page post use AJAX",
+  "keywords": [
+    "wordpress",
+    "plugin"
+  ],
+  "homepage": "https://github.com/SebastianWesolowski/SW_ajax-load-post",
+  "authors": [{
+    "name": "Sebastian Wesołowski"
+  }],
+  "require": {
+    "php": ">=5.6"
+  }
+}
