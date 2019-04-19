@@ -1,14 +1,20 @@
-<?php
-/*
-Plugin Name: SW_ajax-load-post
-Plugin URI: warsztatkodu.pl
-Description: Plugin load next page post use AJAX
-Version: 1.0.0
-Author: Sebastian Wesołowski
-Author URI: warsztatkodu.pl
-Copyright: Sebastian Wesołowski
-*/
 
+<?php
+
+/**
+ * Plugin Name:      sw_ajax-load-post
+ * Plugin URI:       https://github.com/sebastianwesolowski/sw_ajax-load-post
+ * Description:      Plugin load next page post use AJAX
+ * Version:          1.0.0
+ * Author:           Sebastian Wesołowski
+ * Author URI:       warsztatkodu.pl, wesolowski.dev
+ * Text Domain:      sw_ajax-load-post
+ * Domain Path:      /resources/lang
+ * License:          MIT
+ * License URI:      http://opensource.org/licenses/MIT
+ *
+ * @package         sw_ajax-load-post
+ */
 // https://premium.wpmudev.org/blog/using-ajax-with-wordpress/
 // https://www.problogdesign.com/wordpress/load-next-wordpress-posts-with-ajax/
 add_action('template_redirect', 'pbd_alp_init');
