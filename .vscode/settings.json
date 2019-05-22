@@ -1,0 +1,23 @@
+{
+  "editor.formatOnSaveTimeout": 750,
+  "editor.insertSpaces": true,
+  "editor.formatOnSave": true,
+  "prettier.stylelintIntegration": true,
+  "prettier.eslintIntegration": true,
+  "prettier.singleQuote": true,
+  "prettier.printWidth": 80,
+  "prettier.trailingComma": "all",
+  "prettier.requireConfig": true,
+  "prettier.tabWidth": 2,
+
+  "files.exclude": {
+    "**/.cache-loader": true,
+    "**/node_modules": true,
+    "**/vendor": true,
+    "**/composer.lock": true,
+    "**/LICENSE.md": true,
+    "**/phpcs.xml": true,
+    "**/yarn.lock": true,
+    "**/dist": true
+  },
+}
