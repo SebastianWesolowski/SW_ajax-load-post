@@ -1,0 +1,25 @@
+{
+  "name": "sebastianwesolowski/sw-ajax-load-post",
+  "type": "wordpress-muplugin",
+  "description": "Plugin load next page post use AJAX",
+  "keywords": [
+    "wordpress",
+    "plugin"
+  ],
+  "homepage": "https://github.com/SebastianWesolowski/SW_ajax-load-post",
+  "authors": [
+    {
+      "name": "Sebastian Wesołowski",
+      "email": "sebastian@wesolowski.dev",
+      "homepage": "https://wesolowski.dev"
+    },
+    {
+      "name": "Sebastian Wesołowski",
+      "email": "kontakt@warszatkodu.pl",
+      "homepage": "https://warsztatkodu.pl"
+    }
+  ],
+  "require": {
+    "php": "^7.1.3"
+  }
+}
