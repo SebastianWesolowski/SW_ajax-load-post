@@ -33,7 +33,6 @@ function pbd_alp_init()
         $paged = (get_query_var('paged') > 1) ? get_query_var('paged') : 1;
         $max = $wp_query->max_num_pages;
 
-        // Add some parameters for the JS.
         wp_localize_script(
             'pbd-alp-load-posts',
             'WK__loadPostAjaxObject',
