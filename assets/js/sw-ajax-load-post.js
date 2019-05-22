@@ -4,11 +4,7 @@ jQuery(document).ready(function ($) {
     buttonLoadMorePost: {
       functionDescryption: "Show more post",
       nameClass: "more-post"
-    },
-    // buttonLoadAllPost: {
-    //   functionDescryption: "Show all post",
-    //   nameClass: "all-post"
-    // },
+    }
   }
 
   const allPost = parseInt(WK__loadPostAjaxObject.allPost);
