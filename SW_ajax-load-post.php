@@ -52,5 +52,4 @@ function pbd_alp_init()
 }
 // TODO:// Rozszerzyć o query load ajax
 // include 'php-query-load-ajax.php';
-
 ?>
